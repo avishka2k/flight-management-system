@@ -1,0 +1,14 @@
+header.masthead {
+  background-image: url('../../assets/img/home-img.jpg');
+  height: 100vh;
+}
+
+input {
+  border-radius: 25;
+  border-width: 1px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #434aff !important;
+}
+
