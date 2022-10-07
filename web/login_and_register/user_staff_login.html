@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="registration-form" style="padding: 0;">
+        <div style="padding: 0;background: var(--white);border-color: rgb(33, 37, 41);">
+            <div>
+                <ul class="nav nav-tabs d-xl-flex justify-content-xl-center" role="tablist" style="background: #ffffff;">
+                    <li class="nav-item flex-fill" role="presentation" style="color: rgba(0,0,0,0.2);"><a class="nav-link active d-xl-flex justify-content-xl-center align-items-xl-center" role="tab" data-toggle="tab" href="#tab-1" style="text-align: center;border-radius: 0;width: 205px;height: 50px;">Passenger</a></li>
+                    <li class="nav-item flex-fill" role="presentation"><a class="nav-link d-xl-flex justify-content-xl-center align-items-xl-center" role="tab" data-toggle="tab" href="#tab-2" style="text-align: center;border-radius: 0;width: 205px;height: 50px;">Staff</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="tab-1">
+                        <form style="border-radius: 0;padding-right: 20px;padding-left: 20px;padding-bottom: 10px;padding-top: 27px;">
+                            <h3 class="text-left"><span style="font-weight: normal !important;">Login for passenger</span></h3>
+                            <div class="form-group"><input class="form-control item" type="text" id="email" placeholder="Email" name="email" required="" minlength="4" maxlength="15" pattern="^[a-zA-Z0-9_.-]*$" style="border-radius: 5px;width: 370px;height: 50px;"></div>
+                            <div class="form-group"><input class="form-control item" type="password" id="password" placeholder="Password" name="password" required="" minlength="6" style="border-radius: 5px;height: 50px;margin-bottom: 10px;">
+                                <div>
+                                    <div class="d-flex justify-content-xl-start align-items-xl-start" style="height: 21px;padding: 0px;margin-bottom: 15px;margin-top: 15px;">
+                                        <div><input type="checkbox" style="width: 15px;height: 15px;"></div>
+                                        <div style="width: 13px;"></div>
+                                        <div>
+                                            <p style="color: #525252;">Keep me signed in</p>
+                                        </div>
+                                    </div>
+                                    <p style="width: 370px;font-size: 13px;color: #484848;">By signing in, I agree to the Expedia Terms and Conditions, Privacy Statement and Expedia Rewards Terms and Conditions.</p>
+                                </div>
+                            </div>
+                            <div class="form-group"><button class="btn btn-primary btn-block create-account" type="submit" style="border-radius: 5px;height: 50px;">Login</button></div>
+                            <div>
+                                <div style="text-align: center;font-size: 14px;">
+                                    <p style="margin-bottom: 3px;">Don't have an account? <a href="user_staff_register.html"><span style="color: rgb(63, 147, 255);">Create one</span></a></p>
+                                </div>
+                                <div style="text-align: center;font-size: 14px;">
+                                    <p>Are you admin? <a href="admin_login.html"><span style="color: rgb(63, 147, 255);">login here</span></a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-2">
+                        <form style="border-radius: 0;padding-right: 20px;padding-left: 20px;padding-bottom: 10px;padding-top: 27px;">
+                            <h3 class="text-left" style="width: 270px;"><span style="font-weight: normal !important;">Login for staff</span></h3>
+                            <div class="form-group"><input class="form-control item" type="text" id="email-1" placeholder="Email" name="email" required="" minlength="4" maxlength="15" pattern="^[a-zA-Z0-9_.-]*$" style="border-radius: 5px;height: 50px;width: 370px;"></div>
+                            <div class="form-group"><input class="form-control item" type="password" id="password-1" placeholder="Password" name="password" required="" minlength="6" style="height: 50px;border-radius: 5px;margin-bottom: 10px;"></div>
+                            <div>
+                                <div class="d-flex justify-content-xl-start align-items-xl-start" style="height: 21px;padding: 0px;margin-bottom: 15px;margin-top: 15px;">
+                                    <div><input type="checkbox" style="width: 15px;height: 15px;"></div>
+                                    <div style="width: 13px;"></div>
+                                    <div>
+                                        <p style="color: #525252;">Keep me signed in</p>
+                                    </div>
+                                </div>
+                                <p style="width: 370px;font-size: 13px;color: #484848;">By signing in, I agree to the Expedia Terms and Conditions, Privacy Statement and Expedia Rewards Terms and Conditions.</p>
+                            </div>
+                            <div class="form-group text-center"><button class="btn btn-primary btn-block text-center create-account" type="submit" style="border-radius: 5px;height: 50px;">Login</button></div>
+                            <div>
+                                <div style="text-align: center;font-size: 14px;">
+                                    <p style="margin-bottom: 3px;">Don't have an account? <a href="user_staff_register.html"><span style="color: rgb(63, 147, 255);">Create one</span></a></p>
+                                </div>
+                                <div style="text-align: center;font-size: 14px;">
+                                    <p>Are you admin? <a href="admin_login.html"><span style="color: rgb(63, 147, 255);">login here</span></a></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

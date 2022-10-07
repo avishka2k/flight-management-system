@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div style="background: var(--light);padding: 5px;padding-top: 34px;">
+        <form style="border-radius: 0;padding-right: 20px;padding-left: 20px;padding-bottom: 10px;">
+            <h3 class="text-left" style="padding-bottom: 15px;">Login for passenger</h3>
+            <div class="form-group"><input class="form-control item" type="text" id="username" placeholder="Username" name="username" required="" minlength="4" maxlength="15" pattern="^[a-zA-Z0-9_.-]*$" style="border-radius: 5px;width: 370px;height: 50px;"></div>
+            <div class="form-group"><input class="form-control item" type="password" id="password" placeholder="Password" name="password" required="" minlength="6" style="border-radius: 5px;height: 50px;margin-bottom: 10px;">
+                <div>
+                    <div class="d-flex justify-content-xl-start align-items-xl-start" style="height: 21px;padding: 0px;margin-bottom: 15px;margin-top: 15px;">
+                        <div><input type="checkbox" style="width: 15px;height: 15px;"></div>
+                        <div style="width: 13px;"></div>
+                        <div>
+                            <p style="color: #525252;">Keep me signed in</p>
+                        </div>
+                    </div>
+                    <p style="width: 370px;font-size: 13px;color: #484848;">By signing in, I agree to the Expedia Terms and Conditions, Privacy Statement and Expedia Rewards Terms and Conditions.</p>
+                </div>
+            </div>
+            <div class="form-group"><button class="btn btn-primary btn-block create-account" type="submit" style="border-radius: 5px;height: 50px;">Login</button></div>
+        </form>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
