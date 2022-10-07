@@ -1,0 +1,14 @@
+header.masthead {
+  background-color: white;
+  height: 100vh;
+}
+
+input {
+  border-radius: 25;
+  border-width: 1px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #434aff !important;
+}
+
